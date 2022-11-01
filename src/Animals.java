@@ -4,7 +4,7 @@ public abstract class Animals {
   private final String name;
   private final int age;
   private final String areaOfLiving;
-    private Animals[] animalstoZoo;
+
 
     @Override
     public boolean equals(Object o) {
@@ -14,12 +14,7 @@ public abstract class Animals {
         return age == animals.age && Objects.equals(name, animals.name) && Objects.equals(areaOfLiving, animals.areaOfLiving);
     }
 
-    public Animals[] getAnimalstoZoo() {
-        if (animalstoZoo == null) {
-            animalstoZoo = new Animals[0];
-        }
-        return animalstoZoo;
-    }
+
 
     protected String validofDefault(String value, String defaultValue) {
         if (value == null || value.isBlank()) {
