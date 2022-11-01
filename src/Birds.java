@@ -25,6 +25,8 @@ public class Birds extends Animals{
 
     @Override
     public String toString() {
+        System.out.println(getClass());
+
         System.out.println(super.toString());
         return
                 "typeOfMoving='" + typeOfMoving + '\'' +
