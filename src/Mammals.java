@@ -45,11 +45,14 @@ public class Mammals extends Animals{
 
     @Override
     public String toString() {
-        System.out.println(super.toString());
         System.out.println(getClass());
+
+        System.out.println(super.toString());
+
         return "speedOfMoving=" + speedOfMoving +
                 ", typeOfFood='" + typeOfFood + '\'' +
                 '}';
+
     }
 
     @Override

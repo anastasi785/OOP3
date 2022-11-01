@@ -23,6 +23,8 @@ public class Amphibians extends Animals{
 
     @Override
     public String toString() {
+        System.out.println(getClass());
+
         return super.toString();
     }
 }

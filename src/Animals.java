@@ -60,7 +60,8 @@ public abstract class Animals {
 
     @Override
     public String toString() {
-        return "Animals{" +
+
+        return
                 "name='" + name + '\'' +
                 ", age=" + age +
                 ", areaOfLiving='" + areaOfLiving + '\'' +
