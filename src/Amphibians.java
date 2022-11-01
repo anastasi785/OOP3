@@ -20,4 +20,9 @@ public class Amphibians extends Animals{
     private void hunting(){
         System.out.println("Пора на охоту!");
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

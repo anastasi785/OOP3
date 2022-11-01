@@ -14,4 +14,9 @@ public class Planteating extends Mammals{
     public String toString() {
         return super.toString();
     }
+
+    @Override
+    public boolean equals(Object o) {
+        return super.equals(o);
+    }
 }

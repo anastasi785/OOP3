@@ -5,4 +5,9 @@ public class Flying extends Birds{
     public void fly(){
         System.out.println( "Пора полетать!");
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }

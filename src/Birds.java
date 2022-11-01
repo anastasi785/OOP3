@@ -22,4 +22,12 @@ public class Birds extends Animals{
     public String getTypeOfMoving() {
         return typeOfMoving;
     }
+
+    @Override
+    public String toString() {
+        System.out.println(super.toString());
+        return
+                "typeOfMoving='" + typeOfMoving + '\'' +
+                '}';
+    }
 }

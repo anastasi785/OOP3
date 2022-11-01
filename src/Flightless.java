@@ -5,4 +5,9 @@ public class Flightless extends Birds{
     private void walk(){
         System.out.println("Пора гулять");
     }
+
+    @Override
+    public String toString() {
+        return super.toString();
+    }
 }
